@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuttle Lander</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="crt">
+        <div class="screen">
+            <div class="overlay"></div>
+            <div id="game-container">
+                <canvas id="gameCanvas"></canvas>
+                <div id="ui-layer">
+                    <div id="score">SCORE: 0000</div>
+                    <div id="fuel">FUEL: 000</div>
+                    <div id="altitude">ALT: 0000</div>
+                    <div id="velocity">VEL: 0000</div>
+                </div>
+                <div id="message" class="hidden"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/game.js"></script>
+</body>
+
+</html>

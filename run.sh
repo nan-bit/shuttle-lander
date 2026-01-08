@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 lander.py
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
